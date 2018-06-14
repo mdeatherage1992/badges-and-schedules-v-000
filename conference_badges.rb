@@ -19,8 +19,8 @@ return new_array
 end
 
 def printer(array)
-  array.each_with_index do |name,index|
-    assign_rooms(name,index)
+  array.each_with_index do |name|
+    assign_rooms(name)
   end
   return assign_rooms
 end
