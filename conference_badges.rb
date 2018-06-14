@@ -21,7 +21,6 @@ end
 def printer(array)
   new_array = []
   array.each do |name|
-  new_array.push(batch_badge_creator(name))
-  end
-  return new_array
+  puts assign_rooms.each do |name|
+end
 end
