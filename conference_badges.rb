@@ -19,10 +19,8 @@ return new_array
 end
 
 def printer(array)
-  list = []
   array.each do |name|
-  list.push(batch_badge_creator(name))
-  list.push(assign_rooms(name))
-end
-return list
+    assign_rooms(name)
+  end
+  return assign_rooms
 end
