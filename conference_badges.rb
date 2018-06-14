@@ -17,3 +17,8 @@ array.each_with_index do |names,index|
 end
 return new_array
 end
+
+def printer(array)
+  return assign_rooms(array)
+  return batch_badge_creator(array)
+end
