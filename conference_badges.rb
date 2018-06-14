@@ -20,7 +20,7 @@ end
 
 def printer(array)
   array.each_with_index do |name,index|
-    assign_rooms(name)
+    assign_rooms(name,index)
   end
   return assign_rooms
 end
