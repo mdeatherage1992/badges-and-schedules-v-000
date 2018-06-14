@@ -19,7 +19,7 @@ return new_array
 end
 
 def printer(array)
-  array.each do |name|
+  array.each do |name,index|
     assign_rooms(name)
   end
   return assign_rooms
