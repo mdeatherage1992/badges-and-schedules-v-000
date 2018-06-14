@@ -19,8 +19,9 @@ return new_array
 end
 
 def printer(array)
+  new_array = []
   array.each do |name|
-    assign_rooms(name)
+  new_array.push(assign_rooms(name))
   end
-  return assign_rooms
+  return new_array
 end
