@@ -19,6 +19,8 @@ return new_array
 end
 
 def printer(array)
-puts batch_badge_creator(array).each do |name|
+  new_array = []
+batch_badge_creator(array).each do |name|
+  puts name
 end
 end
