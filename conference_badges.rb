@@ -24,3 +24,4 @@ def printer(array)
   puts assign_rooms.each do |name|
 end
 end
+end
