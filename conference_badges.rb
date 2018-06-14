@@ -19,6 +19,6 @@ return new_array
 end
 
 def printer(array)
-  return assign_rooms(array)
-  return batch_badge_creator(array)
+  batch_badge_creator(array)
+  assign_rooms(array)
 end
