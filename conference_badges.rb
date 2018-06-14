@@ -20,7 +20,7 @@ end
 
 def printer(array)
   array.each do |name|
-  puts assign_rooms(array).each do |name|
+  puts batch_badge_creator(array).each do |name|
 end
 end
 end
